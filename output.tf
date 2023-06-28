@@ -1,3 +1,7 @@
+output "argus_id" {
+    value = stackit_argus_instance.demo-argus.id
+}
+
 output "alerting_url" {
 
   value = stackit_argus_instance.demo-argus.alerting_url
